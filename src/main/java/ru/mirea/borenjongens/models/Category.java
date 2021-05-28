@@ -12,9 +12,10 @@ public class Category {
     @Id
     private String tag;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "text")
     private String name;
 
+    @Column(nullable = false, columnDefinition = "text")
     private String description;
 
     private Integer countOfProducts;

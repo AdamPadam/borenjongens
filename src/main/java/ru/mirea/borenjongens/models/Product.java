@@ -14,7 +14,7 @@ public class Product {
     @GeneratedValue
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "text")
     private String name;
 
     @Column(nullable = false)
@@ -70,14 +70,6 @@ public class Product {
     public void setRating(Integer rating) {
         this.rating = rating;
     }
-
-//    public Category getCategory() {
-//        return category;
-//    }
-//
-//    public void setCategory(Category category) {
-//        this.category = category;
-//    }
 
     public List<User> getUserCart() {
         return userCart;
