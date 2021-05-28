@@ -26,7 +26,7 @@
                         <div class="col-md-4">
                             <div class="card py-4 align-items-center">
                                 <a href="/shop/product/${product.id}"><img class="card-img-top"
-                                                                           src="https://i.imgur.com/nOFet9u.jpg"
+                                                                           src="/resources/images/products/product-${product.id}.jpg"
                                                                            style="width: 200px"
                                                                            alt="product"></a>
                                 <div class="card-body align-items-center text-center">

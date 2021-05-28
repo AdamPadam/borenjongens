@@ -7,7 +7,7 @@
         <div class="row g-0">
             <div class="col-md-4">
                 <img
-                        src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg"
+                        src="/resources/images/products/product-${product.id}.jpg"
                         alt="..."
                         class="img-fluid"
                 />
